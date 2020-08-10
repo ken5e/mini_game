@@ -151,9 +151,11 @@ def job():
         print("You son of a bitch! Only dogs choose to be police officers.")
         input("Press enter to exit")
         exit(0)
-    else:
+    elif popo == "n":
         print("At least you have conscience.")
         print(f"You hold a {degree} degree.")
+    else:
+        print("I can't understand your input.")
 
         if degree == ("non professional" or "science"):
             print("You can't find a job. You are a beggar now.")
