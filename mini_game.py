@@ -150,24 +150,26 @@ def job():
 
     if popo == "y":
         print("You son of a bitch! Only dogs choose to be police officers.")
-        input("Press enter to exit")
+        input("Press enter to exit.")
         exit(0)
     elif popo == "n":
         print("At least you have conscience.")
         print(f"You hold a {degree} degree.")
-    else:
-        print("I can't understand your input.")
-        job()
 
         if degree == ("non professional" or "science"):
             print("You can't find a job. You are a beggar now.")
             print(f"You should regret that you chose a {degree} degree.")
-            input("Press enter to exit")
+            input("Press enter to exit.")
             exit(0)
 
         else:
             print("You found a job. You can survive in Hong Kong.")
-            input("Press enter to exit")
+            input("Press enter to exit.")
             exit(0)
+    else:
+        print("I can't understand your input.")
+        job()
+
+
 
 dse()
